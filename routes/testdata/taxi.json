@@ -1,0 +1,645 @@
+{
+  "id": "taxi_driver_1.85_2398_hd.xls",
+  "mediaId": "taxi42",
+  "displayName": "QC Report - TAXI DRIVER - THEATRICAL",
+  "lastModified": 1452793210053,
+  "frameCount": 195832,
+  "frameDurationTv": 1001,
+  "events": [{
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "BARS_AND_TONES"
+    ],
+    "timescale": 24000,
+    "startTv": 720720,
+    "endTv": 2161159,
+    "notes": "SPLIT FIELD BARS W/1K TONE; 31-Dec-1899"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SLATE"
+    ],
+    "timescale": 24000,
+    "startTv": 2162160,
+    "endTv": 2401399,
+    "notes": "SLATE;"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "BLACKS"
+    ],
+    "timescale": 24000,
+    "startTv": 2402400,
+    "endTv": 2881879,
+    "notes": "BLACK \u0026 SILENCE;"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "PROGRAM_START"
+    ],
+    "timescale": 24000,
+    "startTv": 2882880,
+    "endTv": 2896894,
+    "notes": "PROGRAM START;"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "BLACKS"
+    ],
+    "timescale": 24000,
+    "startTv": 2897895,
+    "endTv": 2940938,
+    "notes": "COLUMBIA PICTURES LOGO; FADES UP FROM BLACK"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 2941939,
+    "endTv": 2977975,
+    "notes": "DENSITY SHIFT IN LOGO; IN ELEMENT"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 2978976,
+    "endTv": 3168165,
+    "notes": "COLUMBIA TEXT - OUT OF SAFE TITLE; WITHIN SAFE ACTION"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "BLACKS"
+    ],
+    "timescale": 24000,
+    "startTv": 3169166,
+    "endTv": 3490487,
+    "notes": "START OF MAIN TITLES 16X9; FADES UP FROM - IN BLACK AFTER LOGO"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_AUDIO_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 3491488,
+    "endTv": 3580577,
+    "notes": "PROGRAM AUDIO STARTS;"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 3581578,
+    "endTv": 4107103,
+    "notes": "DIRT SPRINKLING THRU SCENE(S); OPENING TITLES"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 4108104,
+    "endTv": 6322316,
+    "notes": "EXAMPLE OF TITLES OUT OF SAFE TITLE 80%; WITHIN SAFE ACTION 90%"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "MAIN_TITLE_END"
+    ],
+    "timescale": 24000,
+    "startTv": 6323317,
+    "endTv": 9199190,
+    "notes": "FIRST CUT AFTER MAIN TITLE ENDS;"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 9200191,
+    "endTv": 13116103,
+    "notes": "GRAINY FILM RESOLUTION - THRU SECTION; INTERIOR OF GARAGE - ELEMENT"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 13117104,
+    "endTv": 16095079,
+    "notes": "LIGHT ON R. SIDE OF PICTURE - SHADING; ON TAXI DRIVER"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 16096080,
+    "endTv": 18620602,
+    "notes": "GRAINY FILM RESOLUTION - THRU SECTION; INTERIOR OF MOVIE THEATER - MAN TALKING TO WOMAN"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 18621603,
+    "endTv": 25842817,
+    "notes": "FILM WARP AT SPLICE; EXTERIOR SHOT OF BUILDING / CABS"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 25843818,
+    "endTv": 32085053,
+    "notes": "JUMP CUT EDIT IN FILM; CU OF MAN- EYES BLINK"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 32086054,
+    "endTv": 32175143,
+    "notes": "DIRT- IMPROVED; ON GLASS DOOR - RT OF MAN"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 32176144,
+    "endTv": 33212179,
+    "notes": "DIRT SPRINKLING THRU SCENE(S); MAN WALKS INTO CAMPAIGN OFFICE"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 33213180,
+    "endTv": 51338287,
+    "notes": "FILM DIRT; HIS SHOULDER"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 51339288,
+    "endTv": 53689636,
+    "notes": "GRAINY FILM RESOLUTION - THRU SECTION; MAN \u0026 WOMAN"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 53690637,
+    "endTv": 53690637,
+    "notes": "PARTIAL DARK FRAME @ SPLICE; MAN \u0026 WOMAN IN THEATER"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SUBTITLE"
+    ],
+    "timescale": 24000,
+    "startTv": 53691638,
+    "endTv": 53693640,
+    "notes": "SUBTITLES - OVER MOVIE IN THEATER- THRU SECTION; MY PARENTS WERE VERY STRICT."
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 53694641,
+    "endTv": 53764711,
+    "notes": "DIRT \u0026 SCRATCHES SCATTED THRU SCENE(S); MOVIE - INTENTIONAL LOOK"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 53765712,
+    "endTv": 53891838,
+    "notes": "VERTICAL FILM SCRATCH; THRU SECTION - MOVIE SCENE"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SUBTITLE"
+    ],
+    "timescale": 24000,
+    "startTv": 53892839,
+    "endTv": 53931878,
+    "notes": "SUBTITLE; PHALLUS"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SUBTITLE"
+    ],
+    "timescale": 24000,
+    "startTv": 53932879,
+    "endTv": 53955902,
+    "notes": "SUBTITLE; SPERMATAZOA"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SUBTITLE"
+    ],
+    "timescale": 24000,
+    "startTv": 53956903,
+    "endTv": 54113059,
+    "notes": "SUBTITLE; OVUM"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SUBTITLE"
+    ],
+    "timescale": 24000,
+    "startTv": 54114060,
+    "endTv": 57200143,
+    "notes": "SUBTITLE; BEFORE THE MASTERS AND JOHNSONS STUDIES IN AMERICA, SWEDISH RESEARCH HAD LAID THE GROUNDWORK."
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_AUDIO_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 57201144,
+    "endTv": 60552492,
+    "notes": "EXAMPLE OF ELEVATED HISS / NOISE; MAN ON PAYPHONE"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_AUDIO_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 60553493,
+    "endTv": 62749687,
+    "notes": "BAD EFFECT - SOUNDS LIKE 2-POP - IN ELEMENT; CAR BRAKES AS IT STOPS IN FRONT OF BAR"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 62750688,
+    "endTv": 69836767,
+    "notes": "EXAMPLE OF FLICKER - ELEMENT; SHOT OF EXTERIOR OF BUILDING"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 69837768,
+    "endTv": 78509431,
+    "notes": "LOSS OF DETAIL IN BLACKS - EXAMPLE; MEN NEAR TAXI - GRAINY RESOLUTION"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 78510432,
+    "endTv": 99914815,
+    "notes": "GRAINY FILM RESOLUTION - THRU SECTION; UNDEREXPOSED SCENE(S) - ELEMENT"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 99915816,
+    "endTv": 100748648,
+    "notes": "QUICK CUTS - EXAMPLE THRU SCENE; INTENTIONAL"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 100749649,
+    "endTv": 101920819,
+    "notes": "DIRT SPRINKLING THRU SCENE(S); DARK SCENE - TAXI"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 101921820,
+    "endTv": 108057950,
+    "notes": "MID SCENE FILM BUMP - ELEMENT; PAN OF INTERIOR OF STORE"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 108058951,
+    "endTv": 108209101,
+    "notes": "JUMP CUT EDIT IN FILM; TAXI - PASSES PEOPLE ON STREET"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 108210102,
+    "endTv": 110365255,
+    "notes": "BUMP/WARP AT THE SPLICE - ELEMENT; IMPROVED BEST POSSIBLE - MAN WRITING CARD"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 110366256,
+    "endTv": 110578468,
+    "notes": "GRAINY FILM RESOLUTION - THRU SECTION; UNDEREXPOSED SCENE(S) - ELEMENT"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 110579469,
+    "endTv": 114521407,
+    "notes": "STREAKY PRINT QUALITY - THRU SECTION; CU OF MAN"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 114522408,
+    "endTv": 116384268,
+    "notes": "DIRT SPRINKLING THRU SCENE(S); MEN STANDING IN FRONT OF DOORS"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 116385269,
+    "endTv": 117164047,
+    "notes": "CAMERA BOUNCE - ELEMENT; INTERIOR OF HALLWAY"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 117165048,
+    "endTv": 121309188,
+    "notes": "GRAINY FILM RESOLUTION - THRU SECTION; WALKING INTO ROOM (RED)"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_AUDIO_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 121310189,
+    "endTv": 127642515,
+    "notes": "AUDIO BUMP- \"CAN\u0027T YOU UNDERSTAND\";"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 127643516,
+    "endTv": 132027896,
+    "notes": "BUMP / WARP AT THE SPLICE - ELEMENT; MAN \u0026 GIRL AT TABLE"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 132028897,
+    "endTv": 132028897,
+    "notes": "FREEZE FRAMES - SOURCE RELATED; BEST POSSIBLE - CUT FROM EXTERIOR OF BUILDING TO INTERIOR- RED ROOM"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 132029898,
+    "endTv": 144022879,
+    "notes": "BUMP AT THE SPLICE - ELEMENT; EXTERIOR SHOT OF BUILDING TO INTERIOR - MAN"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 144023880,
+    "endTv": 146377231,
+    "notes": "PICTURE LOOKS DESATURIZED - INTENT; TAXI CAR COMES UP STRET"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_PICTURE_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 146378232,
+    "endTv": 149101953,
+    "notes": "GRAINY FILM RESOLUTION - THRU SECTION; UNDEREXPOSED SCENE(S) - ELEMENT"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 149102954,
+    "endTv": 150116967,
+    "notes": "FILM SHADING - VERTICALLY THRU CENTER; EXAMPLE - GIRL CRYING"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 150117968,
+    "endTv": 157760603,
+    "notes": "VERTICAL FILM SCRATCHES; L. OF MAN SITTING ON COUCH"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 157761604,
+    "endTv": 161978817,
+    "notes": "VERTICAL BUMP WITH DENSITY SHIFT- BEST POSSIBLE; EXTERIOR SHOT - 2 TAXIS"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 161979818,
+    "endTv": 162271109,
+    "notes": "DENSITY BREATHING - THRU SHOT; TAXI DRIVES AWAY FROM WOMAN"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "BLACKS"
+    ],
+    "timescale": 24000,
+    "startTv": 162272110,
+    "endTv": 165716551,
+    "notes": "FILM EDGE ON RT. - TO PICTURE FADE TO BLACK - INTENTIONAL; NECCESSARY FOR TITLES TO FIT WITHIN SAFE ACTION 90% (OUT OF SAFE TITLE 80%)"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "QC_AUDIO_ISSUE"
+    ],
+    "timescale": 24000,
+    "startTv": 165717552,
+    "endTv": 166455289,
+    "notes": "AUDIO FADES OUT WITH PICTURE; CREDITS CONTINUE OVER BLACK - MOS"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SUBTITLE"
+    ],
+    "timescale": 24000,
+    "startTv": 166456290,
+    "endTv": 166661495,
+    "notes": "TEXT - @ TAIL OF END CREDITS; OUR GRATITUDE AND RESPECT TO BERNARD HERRMANN JUNE 29, 1911-DECEMBER 24, 1975"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "BLACKS"
+    ],
+    "timescale": 24000,
+    "startTv": 166662496,
+    "endTv": 167374207,
+    "notes": "END OF PROGRAM; FADE TO BLACK"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SLATE"
+    ],
+    "timescale": 24000,
+    "startTv": 167375208,
+    "endTv": 168094927,
+    "notes": "SLATE FOR TEXTLES MATERIAL;"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "MAIN_TITLE_START"
+    ],
+    "timescale": 24000,
+    "startTv": 168095928,
+    "endTv": 174146973,
+    "notes": "TEXTLESS START; MAIN \u0026 END MATERIAL"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "TEXTLESS_END"
+    ],
+    "timescale": 24000,
+    "startTv": 174147974,
+    "endTv": 174403229,
+    "notes": "TEXTLESS END; 31-Dec-1899"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SLATE"
+    ],
+    "timescale": 24000,
+    "startTv": 174404230,
+    "endTv": 183045863,
+    "notes": "SLATE - FOR FOREIGN TEXTED; GERMAN"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "MAIN_TITLE_END"
+    ],
+    "timescale": 24000,
+    "startTv": 183046864,
+    "endTv": 183187004,
+    "notes": "END OF GERMAN MAIN \u0026 END; 31-Dec-1899"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SLATE"
+    ],
+    "timescale": 24000,
+    "startTv": 183188005,
+    "endTv": 183418235,
+    "notes": "SLATE - FOR GERMAN INSERTS;"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 183419236,
+    "endTv": 185746561,
+    "notes": "START OF GERMAN INSERTS; WITH GERMAN SUBTITLES"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 185747562,
+    "endTv": 185866681,
+    "notes": "END OF GERMAN INSERTS; 31-Dec-1899"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SLATE"
+    ],
+    "timescale": 24000,
+    "startTv": 185867682,
+    "endTv": 188437249,
+    "notes": "SLATE - FOR ITALIAN INSERTS;"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "UNKNOWN"
+    ],
+    "timescale": 24000,
+    "startTv": 188438250,
+    "endTv": 188558370,
+    "notes": "END OF ITALIAN INSERTS; 31-Dec-1899"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "SLATE"
+    ],
+    "timescale": 24000,
+    "startTv": 188559371,
+    "endTv": 192279087,
+    "notes": "SLATE - FOR FRENCH END;"
+  }, {
+    "trackId": "taxi_driver_1.85_2398_hd.xls",
+    "tags": [
+      "BLACKS"
+    ],
+    "timescale": 24000,
+    "startTv": 192280088,
+    "endTv": 192280088,
+    "notes": "FOREIGN TEXTED MATERIAL END; 2:24:07 - FADE TO BLACK"
+  }],
+  "importedFrom": "taxi_driver_1.85_2398_hd.xls",
+  "ownerId": "zhuker",
+  "canRead": true,
+  "canWrite": true,
+  "canDelete": true,
+  "state": "NEW"
+}

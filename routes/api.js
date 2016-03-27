@@ -5,7 +5,6 @@ var express = require('express');
 var router = express.Router();
 var fs = require("fs");
 
-router.get('/test', function (req, res, next) {
     var options = {
         root: __dirname + '/testdata/',
         headers: {
@@ -13,7 +12,11 @@ router.get('/test', function (req, res, next) {
             'x-sent': true
         }
     };
+router.get('/test', function (req, res, next) {
     res.sendFile("test.json", options);
+});
+router.get('/taxi', function (req, res, next) {
+    res.sendFile("taxi.json", options);
 });
 
 module.exports = router;
