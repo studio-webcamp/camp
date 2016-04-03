@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACF,KAAK,ECFC,OAAO;EDGb,KAAK,EAAE,IAAI;EACX,UAAU,ECLL,OAAO",
+"sources": ["../sass/base.scss","../sass/components/config.scss"],
+"names": [],
+"file": "base.css"
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <ul id="events" class="list-group"></ul>
+        </div>
+        <div class="col-sm-6 forms-container">
+        </div>
+    </div>
+</div>
+
+<script type="text/x-handlebars" id="event_template">
+    <li id="{{id}}" class="list-group-item">
+        <p>{{notes}}</p>
+
+        <div class="xxx hidden">{{startTv}} : {{endTv}}</div>
+        {{tags}}
+        <button type="button" class="btn btn-danger delete"><span class="glyphicon glyphicon-trash"></span></button>
+        <button type="button" class="btn btn-info expand"><span class="glyphicon glyphicon-plus"></span></button>
+        <button type="button" class="btn btn-success edit"><span class="glyphicon glyphicon-pencil"></span></button>
+    </li>
+
+</script>
+<script  type="text/x-handlebars" id="event_editForm">
+    <form>
+        <div class="form-group">
+            <label for="tags">Tags</label>
+            <input type="text" class="form-control" name="tags" placeholder="tags" value="{{tags}}">
+        </div>
+        <div class="form-group">
+            <label for="starTv">Start tv</label>
+            <input type="number" class="form-control" value="{{startTv}}" name="startTv" min="0">
+        </div>
+        <div class="form-group">
+            <label for="endTv">End tv</label>
+            <input type="number" class="form-control" value="{{endTv}}" name="endTv">
+        </div>
+        <div class="form-group">
+            <label for="notes">Notes</label>
+            <textarea class="form-control" rows="3"  name="notes">{{notes}}</textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</script>
+
+<script src="/libs/jquery/dist/jquery.min.js"></script>
+<script src="/libs/handlebars/handlebars.min.js"></script>
+<script src="/javascripts/models/Event.js"></script>
+<script src="/javascripts/models/Track.js"></script>
+<script src="/javascripts/script.js"></script>
+</body>
+</html>

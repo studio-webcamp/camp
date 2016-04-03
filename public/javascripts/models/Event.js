@@ -27,28 +27,51 @@ Event.getFormTemplate = function (context) {
     return compiled(context);
 };
 Event.prototype.renderEvent = function () {
-
     this.el = $(Event.getTemplate(this));
     this.addEditListener();
 };
 
 Event.prototype.deleteEl = function () {
-    this.el.fadeOut('slow', function(){
+    this.el.fadeOut('slow', function () {
         $(this).remove();
     });
 };
 
-Event.prototype.addEditListener = function(){
+Event.prototype.addEditListener = function () {
     var self = this;
-    this.el.on('click', '.btn.edit', function(ev){
+    this.el.on('click', '.btn.edit', function (ev) {
         ev.stopPropagation();
         console.log(self);
-        if(!self.form){
+        if (!self.form) {
             self.form = $(Event.getFormTemplate(self));
+            self.form.on('submit', self.editEvent.bind(self));
             //TODO:mbc pass form container
             $('.forms-container').append(self.form);
-        }else{
+        } else {
             //TODO:mbc toggle form
         }
     });
+};
+
+Event.prototype.reRenderEvent = function () {
+    var _oldEl = this.el;
+    this.renderEvent();
+    _oldEl.replaceWith(this.el);
+};
+/**
+ * Browser submit form event handler
+ * this points to Event
+ * @ev{Browser Event Object}
+ */
+Event.prototype.editEvent = function (ev) {
+    ev.preventDefault();
+
+    var serializedArray = this.form.serializeArray();
+    var self = this;
+    if (serializedArray instanceof Array) {
+        serializedArray.forEach(function (el) {
+            self[el.name] = el.value;
+        });
+        self.reRenderEvent();
+    }
 };
