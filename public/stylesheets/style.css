@@ -1,8 +1,172 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Slab:400,700&subset=latin,cyrillic);
+.category__desc, .vor_nav, .vor_nav__menu, .vor_nav__cart {
+  display: flex; }
+  .category__desc {
+    align-items: center;
+    justify-content: center; }
 
-a {
-  color: #00B7FF;
-}
+.vor_btn, .vor_btn--default, .vor_btn--primary, .vor_btn--success, .vor_btn--warning, .vor_btn--error, .vor_btn--accent, .vor_nav, .category__name, .page__title {
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase; }
+
+.vor_nav__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.vor_nav__menu a:hover, .vor_nav__cart:hover {
+  text-decoration: none; }
+
+.vor_divider {
+  position: relative; }
+  .vor_divider:after {
+    content: '';
+    display: block;
+    width: 30px;
+    margin: 20px 0;
+    border-bottom: 5px solid #c7c7c7; }
+
+.vor_bckg--pink {
+  background-color: #FBF1FA; }
+
+.vor_bckg--green {
+  background-color: #ACCECD; }
+
+.vor_bckg--yellow {
+  background-color: #FDF2C1; }
+
+.vor_bckg--brown {
+  background-color: #B6A7A4; }
+
+.vor_bckg--yellow_green {
+  background-color: #D3CC75; }
+
+.vor_btn, .vor_btn--default, .vor_btn--primary, .vor_btn--success, .vor_btn--warning, .vor_btn--error, .vor_btn--accent {
+  border: 2px solid;
+  min-width: 120px;
+  display: inline-block;
+  padding: 0 10px;
+  text-align: center;
+  height: 35px;
+  line-height: 31px;
+  font-weight: bold;
+  vertical-align: middle;
+  background: none;
+  color: #474747; }
+  .vor_btn:visited, .vor_btn--default:visited, .vor_btn--primary:visited, .vor_btn--success:visited, .vor_btn--warning:visited, .vor_btn--error:visited, .vor_btn--accent:visited, .vor_btn:active, .vor_btn--default:active, .vor_btn--primary:active, .vor_btn--success:active, .vor_btn--warning:active, .vor_btn--error:active, .vor_btn--accent:active, .vor_btn:focus, .vor_btn--default:focus, .vor_btn--primary:focus, .vor_btn--success:focus, .vor_btn--warning:focus, .vor_btn--error:focus, .vor_btn--accent:focus, .vor_btn:hover, .vor_btn--default:hover, .vor_btn--primary:hover, .vor_btn--success:hover, .vor_btn--warning:hover, .vor_btn--error:hover, .vor_btn--accent:hover {
+    color: #474747;
+    text-decoration: none; }
+
+.vor_btn--default {
+  color: #fff; }
+  .vor_btn--default:visited, .vor_btn--default:active, .vor_btn--default:focus, .vor_btn--default:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.vor_btn--primary {
+  color: #D72560; }
+  .vor_btn--primary:visited, .vor_btn--primary:active, .vor_btn--primary:focus, .vor_btn--primary:hover {
+    color: #D72560;
+    text-decoration: none; }
+
+.vor_btn--success {
+  color: #7BBD52; }
+  .vor_btn--success:visited, .vor_btn--success:active, .vor_btn--success:focus, .vor_btn--success:hover {
+    color: #7BBD52;
+    text-decoration: none; }
+
+.vor_btn--warning {
+  color: #E6C663; }
+  .vor_btn--warning:visited, .vor_btn--warning:active, .vor_btn--warning:focus, .vor_btn--warning:hover {
+    color: #E6C663;
+    text-decoration: none; }
+
+.vor_btn--error {
+  color: #FD7822; }
+  .vor_btn--error:visited, .vor_btn--error:active, .vor_btn--error:focus, .vor_btn--error:hover {
+    color: #FD7822;
+    text-decoration: none; }
+
+.vor_btn--accent {
+  color: #D3CC75; }
+  .vor_btn--accent:visited, .vor_btn--accent:active, .vor_btn--accent:focus, .vor_btn--accent:hover {
+    color: #D3CC75;
+    text-decoration: none; }
+
+.vor_nav {
+  height: 128px;
+  align-items: center; }
+  .vor_nav__logo {
+    color: #7ED9CA;
+    font-size: 125%;
+    flex: 2 auto;
+    color: #7ED9CA; }
+    .vor_nav__logo:visited, .vor_nav__logo:active, .vor_nav__logo:focus, .vor_nav__logo:hover {
+      color: #7ED9CA;
+      text-decoration: none; }
+  .vor_nav__menu {
+    flex: 3 auto;
+    justify-content: space-around; }
+    .vor_nav__menu-item:hover, .vor_nav__menu-item.active {
+      color: #7ED9CA;
+      border-bottom: 1px solid; }
+      .vor_nav__menu-item:hover a, .vor_nav__menu-item.active a {
+        color: #7ED9CA;
+        text-decoration: none; }
+        .vor_nav__menu-item:hover a:visited, .vor_nav__menu-item:hover a:active, .vor_nav__menu-item:hover a:focus, .vor_nav__menu-item:hover a:hover, .vor_nav__menu-item.active a:visited, .vor_nav__menu-item.active a:active, .vor_nav__menu-item.active a:focus, .vor_nav__menu-item.active a:hover {
+          color: #7ED9CA;
+          text-decoration: none; }
+    .vor_nav__menu a {
+      color: #474747; }
+      .vor_nav__menu a:visited, .vor_nav__menu a:active, .vor_nav__menu a:focus, .vor_nav__menu a:hover {
+        color: #474747;
+        text-decoration: none; }
+  .vor_nav__cart {
+    justify-content: flex-start;
+    flex: 1 auto; }
+    .vor_nav__cart .material-icons {
+      color: #474747;
+      border: 1px solid;
+      padding: 3px; }
+      .vor_nav__cart .material-icons:visited, .vor_nav__cart .material-icons:active, .vor_nav__cart .material-icons:focus, .vor_nav__cart .material-icons:hover {
+        color: #474747;
+        text-decoration: none; }
+      .vor_nav__cart .material-icons:hover {
+        color: #7ED9CA; }
+
+.category {
+  margin-bottom: 40px; }
+  .category__img {
+    max-height: 300px; }
+  .category__desc {
+    height: 300px;
+    max-height: 300px; }
+  .category__name {
+    color: #474747; }
+    .category__name:visited, .category__name:active, .category__name:focus, .category__name:hover {
+      color: #474747;
+      text-decoration: none; }
+
+.page__title {
+  background-color: #E6C663;
+  color: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+  position: relative; }
+  .page__title:after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    right: 9px;
+    bottom: -34px;
+    background: url("/images/macarons/main1.png") no-repeat;
+    background-size: contain; }
+  .page__title p {
+    margin: 0; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+/*# sourceMappingURL=style.css.map */

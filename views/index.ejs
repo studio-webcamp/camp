@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html" ng-app="macaron">
 <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css'/>
     <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.css"/>
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
 
+</head>
+<body ng-controller="mainCtrl">
+<div class="container">
+    <nav class="vor_nav">
+        <a href="/" class="vor_nav__logo">VØR</a>
+        <ul class="vor_nav__menu">
+            <li class="vor_nav__menu-item" ng-repeat="(key,item) in menu"
+                ng-class="{'active':isActive(item)}">
+                <a href="#{{key}}">{{item}}</a></li>
+        </ul>
+        <a href="/cart" class="vor_nav__cart"><i class="material-icons">shopping_cart</i></a>
+    </nav>
+</div>
+<!--PAGE TITLE-->
+<div class="container">
+    <div class="row page__title">
+        <p>
+            {{title}}
+        </p>
+    </div>
+</div>
+<!--NG-VIEW-->
+<div ng-view></div>
+
+
+<script src="/libs/angular/angular.js"></script>
+<script src="/libs/angular-resource/angular-resource.js"></script>
+<script src="/libs/angular-route/angular-route.js"></script>
+<script src="/javascripts/app.js"></script>
+<script src="/javascripts/controllers/mainCtrl.js"></script>
+<script src="/javascripts/controllers/homeCtrl.js"></script>
+<script src="/javascripts/controllers/CategoriesCtrl.js"></script>
+<script src="/javascripts/models/Menu.js"></script>
+<script src="/javascripts/models/Categories.js"></script>
 </body>
 </html>

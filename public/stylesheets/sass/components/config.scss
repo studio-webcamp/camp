@@ -4,4 +4,36 @@ $jetStream: #ACCECD;
 $amour: #FBF1FA;
 $martini: #B6A7A4;
 $beeswax: #FDF2C1;
+$cerisered: #D72560;
+$mantis: #7BBD52;
+$equator: #E6C663;
+$pumpkin: #FD7822;
+$tacha: #D3CC75;
+$text_color: #474747;
+$ui-colors: (
+        default:#fff,
+        primary:$cerisered,
+        success:$mantis,
+        warning:$equator,
+        error:$pumpkin,
+        accent:$tacha
+);
 
+$backgrounds: (
+        pink:$amour,
+        green:$jetStream,
+        yellow:$beeswax,
+        brown: $martini,
+        yellow_green:$tacha
+);
+
+//FONTS
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Slab:400,700&subset=latin,cyrillic);
+
+$body_font: 'Roboto', sans-serif;
+
+$ex_font: 'Roboto Slab', serif;
+
+$font_s: 50%;
+$font_m: 75%;
+$font_l: 125%;

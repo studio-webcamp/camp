@@ -1,0 +1,15 @@
+.category {
+  margin-bottom: 40px;
+  &__img {
+    max-height: 300px;
+  }
+  &__desc {
+    height: 300px;
+    max-height: 300px;
+    @extend %flex--center;
+  }
+  &__name {
+    @extend %exfont;
+    @include clear-link($text_color);
+  }
+}

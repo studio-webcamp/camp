@@ -17,9 +17,14 @@ router.get('/flavors', function(req, res, next){
 });
 router.get('/flavors/:id', function(req, res, next){
     var _id = req.params.id;
-    Flavor.findById(_id, function (err, _flavor) {
-        if (err) return res.status(500).json({ error: 'message' });
-        res.json(_flavor);
+    Flavor.findById(_id, function(err, _flavor) {
+        if(err) return res.status(500).send({ error: 'something blew up' });
+        _flavor.findCakesByFlavors(function(_err, _cakes) {
+            if(_err) return res.status(500).send({ error: 'something blew up' });
+            console.log(_cakes);
+            _flavor.cakes = _cakes;
+            res.json(_flavor);
+        });
     });
 });
 router.get('/cakes', function(req, res, next){

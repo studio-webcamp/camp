@@ -1,0 +1,5 @@
+@each $name, $color in $backgrounds {
+  .vor_bckg--#{$name} {
+    background-color: $color;
+  }
+}

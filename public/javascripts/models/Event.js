@@ -1,14 +1,16 @@
 /**
+ * Created by Aj on 27.03.2016.
  * @class Event
  * @param _event
- *        _event.trackId{string}
- *        _event.tags{array}
- *        _event.timescale{number(long)}
- *        _event.startTv{number(long)}
- *        _event.endTv{number(long)}
- *        _event.notes{string}
- * @constructor
+ *  _event.trackId{string}
+    _event.tags{array}
+    _event.timescale{number(long)},
+    _event.startTv{number(long)}
+    _event.endTv{number(long)}
+    _event.notes{string}
+
  */
+
 function Event(_event, id) {
     this.id = id;
     this.trackId = _event.trackId;
@@ -18,60 +20,55 @@ function Event(_event, id) {
     this.endTv = _event.endTv;
     this.notes = _event.notes;
 }
-Event.getTemplate = function (context) {
+
+Event.getTemplate = function(context) {
     var compiled = Handlebars.compile($("#event_template").html());
     return compiled(context);
 };
-Event.getFormTemplate = function (context) {
+
+Event.getFormTemplate = function(context) {
     var compiled = Handlebars.compile($("#event_editForm").html());
     return compiled(context);
 };
-Event.prototype.renderEvent = function () {
+
+Event.prototype.renderEvent = function() {
     this.el = $(Event.getTemplate(this));
     this.addEditListener();
-};
+}
 
-Event.prototype.deleteEl = function () {
-    this.el.fadeOut('slow', function () {
+Event.prototype.deleteEl = function() {
+        this.el.fadeOut('slow', function(){
         $(this).remove();
     });
 };
 
-Event.prototype.addEditListener = function () {
+Event.prototype.addEditListener = function() {
     var self = this;
-    this.el.on('click', '.btn.edit', function (ev) {
+    this.el.on("click", ".btn.edit", function(ev) {
         ev.stopPropagation();
-        console.log(self);
-        if (!self.form) {
-            self.form = $(Event.getFormTemplate(self));
-            self.form.on('submit', self.editEvent.bind(self));
-            //TODO:mbc pass form container
-            $('.forms-container').append(self.form);
-        } else {
-            //TODO:mbc toggle form
+        if(!self.form) { //TODO else...
+            self.form =  $(Event.getFormTemplate(self));
+            self.form.on("submit", self.editEvent.bind(self));
+            $(".forms-container").append(self.form); //TODO get forms-container in other way
         }
     });
 };
-
-Event.prototype.reRenderEvent = function () {
-    var _oldEl = this.el;
-    this.renderEvent();
-    _oldEl.replaceWith(this.el);
-};
-/**
- * Browser submit form event handler
- * this points to Event
- * @ev{Browser Event Object}
- */
-Event.prototype.editEvent = function (ev) {
+/*browser submit
+* ev - browser event
+* this -point to Event*/
+Event.prototype.editEvent = function(ev) {
     ev.preventDefault();
-
+    console.log(this);
     var serializedArray = this.form.serializeArray();
-    var self = this;
-    if (serializedArray instanceof Array) {
-        serializedArray.forEach(function (el) {
-            self[el.name] = el.value;
-        });
-        self.reRenderEvent();
+    console.log(serializedArray);
+    if(serializedArray instanceof Array) {
+        serializedArray.forEach(function(el){
+            console.log(el.name, el.value);
+            this[el.name] =el.value;
+        }, this);
     }
+    console.log(this);
+    var oldEl = this.el;
+    this.renderEvent();
+    oldEl.replaceWith(this.el);
 };

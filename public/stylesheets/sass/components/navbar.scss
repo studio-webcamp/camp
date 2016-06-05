@@ -1,0 +1,49 @@
+.vor_nav {
+  @extend %flex;
+  @extend %exfont;
+  height: 128px;
+  align-items: center;
+  &__logo {
+    color: $bermuda;
+    font-size: $font_l;
+    flex: 2 auto;
+    @include clear-link($bermuda);
+  }
+  &__menu {
+    @extend %flex;
+    @extend %clear-list;
+    flex: 3 auto;
+    justify-content: space-around;
+
+    &-item {
+      &:hover, &.active {
+        color: $bermuda;
+        border-bottom: 1px solid;
+        a {
+          @include clear-link($bermuda);
+          text-decoration: none;
+        }
+      }
+    }
+
+    a {
+      @include clear-link($text_color);
+      @extend %no-decor;
+    }
+  }
+  &__cart {
+    @extend %flex;
+    justify-content: flex-start;
+    flex: 1 auto;
+    @extend %no-decor;
+    .material-icons {
+      @include clear-link($text_color);
+      border: 1px solid;
+      padding: 3px;
+      &:hover {
+        color: $bermuda;
+      }
+
+    }
+  }
+}

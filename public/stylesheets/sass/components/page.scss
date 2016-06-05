@@ -1,0 +1,27 @@
+$size: 40px;
+.page {
+  &__title {
+    @extend %exfont;
+    background-color: map-get($ui-colors, warning);
+    color: map-get($ui-colors, default);
+    padding: $size;
+    margin-bottom: $size;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      z-index: 1;
+      right: 9px;
+      bottom: -34px;
+      background: url('/images/macarons/main1.png') no-repeat;
+      background-size: contain;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
