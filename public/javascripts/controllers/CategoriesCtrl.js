@@ -1,7 +1,8 @@
 /**
  * Created by lenka on 6/5/16.
  */
-angular.module('macaron').controller('CategoriesCtrl', function ($scope, Categories) {
+angular.module('macaron').controller('CategoriesCtrl', function ($rootScope, $scope, Categories) {
+    
     var colorClassNames = ["pink", "green", "yellow", "brown", "yellow_green"];
     var categoriesImgs = ["lette-macarons.png", "Lette-Macaron-2.png", "Lette-Macarons-01.png", "lemon.png", "lette_macarons_400.png"];
     var _query = Categories.getAll();
@@ -13,12 +14,4 @@ angular.module('macaron').controller('CategoriesCtrl', function ($scope, Categor
             return category;
         });
     });
-    $scope.showCategory = function ($event, _cat) {
-        $event.preventDefault();
-        Categories.getById(_cat.id).then(function (category) {
-            $scope.selectedCategory = category;
-        });
-        console.log(_cat);
-        //  $scope.selectedCategory = category;
-    }
 });

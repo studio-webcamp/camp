@@ -1,4 +1,5 @@
 $size: 40px;
+$width: 120px;
 .page {
   &__title {
     @extend %exfont;
@@ -11,8 +12,8 @@ $size: 40px;
     &:after {
       content: '';
       position: absolute;
-      width: 120px;
-      height: 120px;
+      width: $width;
+      height: $width;
       z-index: 1;
       right: 9px;
       bottom: -34px;
@@ -24,4 +25,10 @@ $size: 40px;
       margin: 0;
     }
   }
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - #{$width});
 }

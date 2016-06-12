@@ -23,8 +23,15 @@
 <!--PAGE TITLE-->
 <div class="container">
     <div class="row page__title">
-        <p>
-            {{title}}
+        <p class="title">
+            <span ng-repeat="title in titles">
+                <a href="" ng-if="!$last">
+                    {{title}}
+                </a>
+                <span ng-if="$last">
+                    {{title}}
+                </span>
+            </span>
         </p>
     </div>
 </div>
@@ -39,6 +46,7 @@
 <script src="/javascripts/controllers/mainCtrl.js"></script>
 <script src="/javascripts/controllers/homeCtrl.js"></script>
 <script src="/javascripts/controllers/CategoriesCtrl.js"></script>
+<script src="/javascripts/controllers/CategoryCtrl.js"></script>
 <script src="/javascripts/models/Menu.js"></script>
 <script src="/javascripts/models/Categories.js"></script>
 </body>

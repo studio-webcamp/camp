@@ -4,7 +4,7 @@
 angular.module('macaron').service('Menu', function(){
     this.menuMap = {
         home: 'home',
-        categories: 'flavor categories',
+        categories: 'categories',
         contact: 'contact',
         cart: 'cart'
     };

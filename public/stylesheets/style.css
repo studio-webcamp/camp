@@ -166,6 +166,11 @@
   .page__title p {
     margin: 0; }
 
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 120px); }
+
 body {
   font-family: "Roboto", sans-serif; }
 

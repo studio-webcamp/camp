@@ -8,8 +8,9 @@
         <div ng-class="{'col-md-pull-7':$odd}" class="col-md-5 category__desc">
             <div>
                 <p class="vor_divider">
-                    <a href="#" ng-class="{'active' : category == selectedCategory}"
-                       ng-click="showCategory($event, category)" class="category__name">{{category.name}}</a>
+                    <a href="#/categories/{{category.name}}?id={{category.id}}"
+                       ng-class="{'active' : category == selectedCategory}"
+                       class="category__name">{{category.name}}</a>
                 </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nam recusandae repellat tempore.
                     Esse, magni.</p>
